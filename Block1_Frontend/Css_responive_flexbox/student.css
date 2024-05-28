@@ -1,0 +1,68 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  @media (max-width: 850px) {
+    .other-links, .profile, .sidebar   {
+      display: none;
+    }
+    .content, .main{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        overflow-y: auto;
+    }
+  }
+
+  @media (min-width: 850px) and (max-width: 1300px) {
+    .sidebar   {
+      display: none;
+    }
+    .content {
+        display:flex;
+        justify-content: space-between;
+        overflow-y: auto;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow-y: auto;
+    }
+  }
+
+
+ @media (min-width: 1300px) {
+    
+    .content {
+        display:flex;
+        justify-content: space-between;
+        overflow-y: auto;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow-y: auto;
+    }
+    .links {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+      }
+      
+    .friends {
+        display: flex;
+        
+      }
+
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+
+  
