@@ -20,6 +20,10 @@ body {
     width: 350px;
     margin-right: 25px;
   }
+  /* .other-links {
+    display: flex;
+    justify-content: space-around;
+  } */
   .content {
     background-image: url(https://slidechef.net/wp-content/uploads/2022/09/Physics-project-front-page.jpg);
     height:100%;

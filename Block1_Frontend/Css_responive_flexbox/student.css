@@ -4,6 +4,11 @@
     justify-content: space-between;
   }
 
+  .other-links {
+    display: flex;
+    justify-content: space-around;
+  }
+
   @media (max-width: 850px) {
     .other-links, .profile, .sidebar   {
       display: none;
@@ -23,6 +28,7 @@
     .content {
         display:flex;
         justify-content: space-between;
+        justify-content: space-around;
         overflow-y: auto;
     }
     .main {
